@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.notification {
+  border: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+@media screen and (min-width: 768px) {
+  .notification {
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+  }
+}
+.notification-content {
+  display: flex;
+}
+.gr-icon {
+  height: 70px;
+  width: 30px;
+}

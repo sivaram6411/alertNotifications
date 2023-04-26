@@ -1,0 +1,148 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+.alert-heading {
+  font-family: 'Roboto';
+  line-height: 1.5;
+  font-size: 30px;
+  font-weight: 900;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .alert-heading {
+    font-size: 40px;
+  }
+}
+.notification-text {
+  display: flex;
+  flex-direction: column;
+}
+.alert-content {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .alert-content {
+    font-size: 20px;
+  }
+}
+.fill-icon {
+  height: 30px;
+  width: 30px;
+  color: #2dca73;
+  margin-right: 12px;
+}
+@media screen and (min-width: 768px) {
+  .fill-icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+.success-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+  color: #2dca73;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .success-text {
+    font-size: 28px;
+    margin-top: 0px;
+  }
+}
+.error-icon {
+  height: 32px;
+  width: 32px;
+  color: #ff0b37;
+  margin-right: 12px;
+}
+@media screen and (min-width: 768px) {
+  .error-icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+.error-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+  color: #ff0b37;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .error-text {
+    font-size: 28px;
+    margin-top: 0px;
+  }
+}
+.warning-icon {
+  height: 30px;
+  width: 30px;
+  color: #ffb800;
+  margin-right: 12px;
+}
+@media screen and (min-width: 768px) {
+  .warning-icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+.warning-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffb800;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .warning-text {
+    font-size: 28px;
+    margin-top: 0px;
+  }
+}
+.info-icon {
+  height: 30px;
+  width: 30px;
+  color: #0f81e0;
+  margin-right: 12px;
+}
+@media screen and (min-width: 768px) {
+  .info-icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+.info-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+  color: #0f81e0;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .info-text {
+    font-size: 28px;
+    margin-top: 0px;
+  }
+}
